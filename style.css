@@ -1,0 +1,54 @@
+.MyInfo {
+    text-align: right;
+}
+.WorkTitles {
+    text-align: left;
+}
+.MyBox {
+    display: flex;
+    flex-wrap: wrap;
+  }
+.Projects {
+    width: 100%;
+}
+.Project1 {
+    max-height: 250px;
+    text-align: center;
+}
+.Project2 {
+    max-height: 250px;
+    text-align: center;
+}
+.Project3 {
+    max-height: 250px;
+    text-align: center;
+}
+#MainImage {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}
+#Logo {
+    width: 80px;
+    height: 60px;
+    float: left;
+}
+#MyBody{
+    margin-right: 100px;
+    margin-left: 100px;
+}
+.projectLinks{
+    background-color: rgb(26, 176, 196);
+    color: white;
+    padding: 14px 25px;
+    text-align: right;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 15px;
+}
+.projectLinks:hover {
+    background-color: blue;
+}
+img, embed, object, video{
+    max-width: 100%;
+}
